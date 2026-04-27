@@ -1,0 +1,105 @@
+
+
+##ler duas idades e informar qual é a maior
+# 
+# print ('Digite duas idades')
+# idade1 = int(input(' - '))
+# idade2 = int(input(' - '))
+# 
+# if idade1 > idade2:
+    # print (f'A primeira idade é maior que a segunda, {idade1} é maior que {idade2}')
+# elif idade1 == idade2:
+    # print ('As idades são iguais')
+# else:
+    # print (f'A segunda idade é maior que a primeira, {idade2} é maior que {idade1}')
+
+
+
+##diferença entre valores 
+# 
+# print ('Digite dois números')
+# num1 = int(input(' - '))
+# num2 = int(input(' - '))
+# 
+# if num1 > num2:
+    # print ('A diferença entre o maior e o menor é', num1 - num2)
+# elif num1 == num2:
+    # print ('Esses números são iguais')
+# else:
+    # print ('A diferença entre o maior e o menor é', num2 - num1)
+
+
+##informar se é par ou ímpar
+# 
+# num = int(input('Digite um número - '))
+# if num %2 != 0:
+    # print ('Esse número é ímpar')
+# else:
+    # print ('Esse número é par')
+
+
+##informar se é negativo ou positivo
+# 
+# num = int(input('Digite um número não nulo - '))
+# if num > 0:
+    # print('Esse número é positivo')
+# else:
+    # print('Esse número é negativo')
+
+
+#verificar se um individuo pode tirar habilitação
+# 
+# idade = int(input('Digite a sua idade - '))
+# 
+# if idade >= 18:
+    # print('Você pode fazer testes para habilitação')
+# else:
+    # print('Você não pode fazer testes para habilitação')
+
+##checar aprovação ou reprovação
+# 
+# print('Quais foram suas notas?')
+# nota1 = int(input('nota 1 - '))
+# nota2 = int(input('nota 2 - '))
+# presenca = int(input('Quantas aulas você assistiu? '))
+# media = (nota1 + nota2) /2
+# frequencia = presenca / 30 * 100
+# 
+# if media >= 6 and frequencia >= 75:
+    # print (f'Você foi aprovado sua média foi {media} e sua frequencia foi {frequencia:.2f}%')
+# else:
+    # print (f'Você foi reprovado sua média foi {media} e sua frequencia foi {frequencia:.2f}%')
+
+
+##raiz quadrada
+# 
+# num = int(input('Digite um número - '))
+# import math
+# 
+# if num >= 0:
+    # print(f'A raiz quadrada desse número é {math.sqrt(num)}')
+# else:
+    # print('Esse cálculo é impossìvel')
+
+
+
+##checar se uma pessoa está liberada de votar ou não
+# 
+# idade = int(input('Digite a sua idade - '))
+# 
+# if idade < 18 or idade > 70:
+    # print('Você está liberado da obrigação de votar ')
+# else:
+    # print('Você não está liberado da obrigação de votar ')
+
+
+##checar se empréstimo pode ser concedido ou não
+# 
+# salario = float(input('Digite o seu salário - '))
+# prest = float(input('Digite o valor da prestação - '))
+# valor = (prest/salario) * 100
+# 
+# if valor >= 30:
+    # print ('O empréstimo não pode ser concedido')
+# else:
+    # print ('O empréstimo pode ser concedido')
