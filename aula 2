@@ -103,3 +103,11 @@
     # print ('O empréstimo não pode ser concedido')
 # else:
     # print ('O empréstimo pode ser concedido')
+valor = float(input('Qual o valor da compra? R$'))
+desconto = 0 
+
+if valor <= 100:
+    desconto = valor * 0.05
+    print(f'O valor da sua compra é {valor} ')
+
+
