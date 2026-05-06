@@ -1,0 +1,62 @@
+
+#maior de 4 numeros
+# 
+# num1 = int (input('Digite o 1° número: '))
+# num2 = int (input('Digite o 2° número: '))
+# num3 = int (input('Digite o 3° número: '))
+# num4 = int (input('Digite o 4° número: '))
+# 
+# if num1>num2:
+    # if num1>num3:
+        # if num1>num4:
+            # print (f'O número {num1} é o maior número')
+        # else:
+            # print (f'O número {num4} é o maior número ')
+    # else:
+        # if num3>num4:
+        #    print (f'O número {num3} é o maior número')
+        # else:
+            # print (f'O número {num4} é o maior número ')
+# else:
+    # if num2>num3:
+        # if num2>num4:
+            # print (f'O número {num2} é o maior número')
+        # else:
+            # print (f'O número {num4} é o maior número ')
+    # else:
+        # if num3>num4:
+        #    print (f'O número {num3} é o maior número')
+        # else:
+            # print (f'O número {num4} é o maior número ')
+
+
+##dizer o maior, menor, média e diferença
+num1 = int (input('Digite o 1° número: '))
+num2 = int (input('Digite o 2° número: '))
+num3 = int (input('Digite o 3° número: '))
+maiorNum = 0
+menorNum = 0
+
+if num1>num2 and num2>num3:
+    maiorNum = num1
+    menorNum = num3
+if num1>num2 and num2<num3:
+    maiorNum = num1 
+    menorNum = num2
+if num2>num1 and num1>num3:
+    maiorNum = num2
+    menorNum = num3
+if num2>num1 and num1<num3:
+    maiorNum = num2
+    menorNum = num1
+if num3>num1 and num1>num2:
+    maiorNum = num3
+    menorNum = num2
+if num3>num1 and num1<num2:
+    maiorNum = num3
+    menorNum = num1
+
+diferenca = maiorNum - menorNum
+media = (num1 + num2 + num3) / 3
+print (f' Maior número: {maiorNum}\n Menor número: {menorNum}\n Diferença: {diferenca}\n Média: {media} ')
+
