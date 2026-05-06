@@ -60,3 +60,41 @@ diferenca = maiorNum - menorNum
 media = (num1 + num2 + num3) / 3
 print (f' Maior número: {maiorNum}\n Menor número: {menorNum}\n Diferença: {diferenca}\n Média: {media} ')
 
+###identificar figura plana e calcular area
+# print ('Informe o tipo de figura C, Q ou T.\n C = circulo\n Q = quadrado\n T = triângulo ')
+# figura = input('Figura : ')
+# import math
+# 
+# if figura == 'C':
+    # raio = float(input('Insira o raio do circulo: '))
+    # area = math.pi * raio * raio
+    # print (f'A area desse circulo é {area}') 
+# elif figura == 'Q':
+    # lado = float(input('Insira o valor do lado do quadrado: '))
+    # area = lado * lado
+    # print (f'A area desse quadrado é {area}')
+# elif figura == 'T':
+    # base = float(input('Insira o valor da base do triângulo: '))
+    # altura = float(input('Insira o valor da altura do triângulo: '))
+    # area = base * altura / 2
+    # print (f'A area desse triângulo é {area}')
+# else:
+    # print ('ERRO')
+
+###classificar um triângulo
+# print ('Informe três valores em ordem decrescente')
+# n1 = float(input())
+# n2 = float(input())
+# n3 = float(input())
+# 
+# if n3 < n2 + n1:
+    # print ('Esses valores podem formar um triângulo')
+    # if n1 == n2 and n1 == n3:
+    #  print ('Esse triâgulo é equilátero')
+    # if n1 != n2 and n1 != n3:
+    #   print ('Esse triângulo é escaleno')
+    # if n1 == n2 and n1 != n3 or n1 == n3 and n1 != n2 or n2 == n3 and n2 != n1:  
+    #   print ('Esse triângulo é isósceles')   
+# else:
+#    print ('Esses valores não podem formar um triângulo')
+
