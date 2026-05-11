@@ -136,7 +136,6 @@ mes = (input('Digite o mês desejado? '))
 lista1 = ['jan', 'mar', 'mai', 'jul', 'ago', 'out', 'dez' ]
 lista2 = ['abr', 'jun', 'set', 'nov']
 dias = 0 
-
 for i in lista1:
     if mes == i:
         dias = 31
@@ -147,6 +146,14 @@ if mes == 'fev':
     dias = 28
 
 print (f'Esse mês tem {dias} dias')
+
+##programa que recebe os meses por numeros
+meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto',
+         'setembro', 'outubro', 'novembro', 'dezembro']
+
+num = int(input('Digite um numero de 1 a 12 - '))
+print (meses[num - 1])
+
 
 
 
