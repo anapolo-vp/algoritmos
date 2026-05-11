@@ -129,6 +129,27 @@ else:
     print ('Essa não é uma categoria válida')
 
 
+###programa que recebe os meses
+
+mes = (input('Digite o mês desejado? '))
+
+lista1 = ['jan', 'mar', 'mai', 'jul', 'ago', 'out', 'dez' ]
+lista2 = ['abr', 'jun', 'set', 'nov']
+dias = 0 
+
+for i in lista1:
+    if mes == i:
+        dias = 31
+for i in lista2:
+    if mes == i:
+        dias = 30
+if mes == 'fev':
+    dias = 28
+
+print (f'Esse mês tem {dias} dias')
+
+
+
 
 
 
