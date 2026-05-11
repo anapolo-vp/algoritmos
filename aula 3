@@ -98,3 +98,38 @@ print (f' Maior número: {maiorNum}\n Menor número: {menorNum}\n Diferença: {d
 # else:
 #    print ('Esses valores não podem formar um triângulo')
 
+
+##taxa de postagem de uma empresa de entregas
+print ('Categoria E - Entrega Expressa \nCategoria C - Cartões \nCategoria L  - Livros ' \
+'\nCategoria X - Encomenda para o exterior')
+categ = input('Qual a categoria de entrega? Categoria ')
+
+if categ == 'E':
+    peso = float (input('Quantos kilos tem a encomenda? '))
+    valor = 20 + 5 * peso
+    print (f'O valor de sua entrega será de R${valor:.2f}')
+elif categ == 'C':
+    valor = 0.25
+    print (f'O valor de sua entrega será de R${valor:.2f}')
+elif categ == 'L':
+    peso = float (input('Quantos kilos tem a encomenda? '))
+    if peso <= 1:
+        valor = 5
+        print (f'O valor de sua entrega será de R${valor:.2f}')
+    elif peso >1 and peso <= 4:
+        valor = 5 + (peso - 1) * 0.80
+        print (f'O valor de sua entrega será de R${valor:.2f}')
+    else:
+        valor = 5 + 3 * 0.80 + (peso - 4) * 0.50
+elif categ == 'X':
+    peso = float (input('Quantos kilos tem a encomenda? '))
+    valor = 20 * peso
+    print (f'O valor de sua entrega será de R${valor:.2f}')
+else:
+    print ('Essa não é uma categoria válida')
+
+
+
+
+
+
