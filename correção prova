@@ -1,4 +1,4 @@
-# calculo da area de um trapézio
+# cálculo da area de um trapézio
 
 bMenor = float (input('Insira o valor da base menor - '))
 bMaior = float (input('Insira o valor da base maior - '))
@@ -7,4 +7,55 @@ altura = float (input('Insira o valor da altura - '))
 area = ((bMenor + bMaior) * altura) / 2
 
 print (f'A area desse trapézio é {area}cm²')
+
+
+
+#cáculo de média ponderada de duas notas
+
+print ('Insira duas notas ')
+nota1 = float (input())
+nota2 = float (input())
+media = (nota1 * 2 + nota2 * 3) / 5
+print (f'Sua média foi {media} ')
+if media >= 7:
+    print ('O aluno teve bom rendimento')
+else:
+    print ('O aluno não teve bom rendimento')
+
+
+
+#O maior de três números
+
+print ('Insira trẽs números diferentes')
+
+n1 = int (input())
+n2 = int (input())
+n3 = int (input())
+
+if n1 > n2:
+    if n1 > n3:
+        maior = n1
+    else:
+        maior = n3
+else:
+    if n2 > n3:
+        maior = n2
+    else:
+        maior = n3
+
+print (f'O maior entre esses números é o número {maior}')
+
+
+
+#valor de estacionamento
+
+horas = float (input('Quantas horas o carro permaneceu no estacionamento?  '))
+
+if horas %1 != 0:
+    valor = ((horas//1) + 1) * 10
+else:
+    valor = horas * 10
+
+print (f'O valor do estacionamento será de R${valor:.2f}')
+
 
