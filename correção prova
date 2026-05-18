@@ -1,0 +1,10 @@
+# calculo da area de um trapézio
+
+bMenor = float (input('Insira o valor da base menor - '))
+bMaior = float (input('Insira o valor da base maior - '))
+altura = float (input('Insira o valor da altura - '))
+
+area = ((bMenor + bMaior) * altura) / 2
+
+print (f'A area desse trapézio é {area}cm²')
+
