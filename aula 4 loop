@@ -44,3 +44,12 @@ while cont <= num:
     if cont %2 == 0:
         print (cont) 
     cont += 1
+
+
+#Tabuada Personalizada
+cont = 0 
+num = int(input('Insira o número que você deseja ver a tabuada:  '))
+
+while cont < 10:
+    cont+= 1
+    print (f'{num} X {cont} = {num * cont}')
