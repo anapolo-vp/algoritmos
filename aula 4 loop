@@ -53,3 +53,12 @@ num = int(input('Insira o número que você deseja ver a tabuada:  '))
 while cont < 10:
     cont+= 1
     print (f'{num} X {cont} = {num * cont}')
+
+
+#Validação de idade de servidores de uma empresa pública
+
+idade = int (input("Insira a sua idade: "))
+while idade < 18 or idade > 70:
+    idade = int (input("Insira uma idade válida: "))
+print (f'A idade {idade} anos é válida')
+
