@@ -73,3 +73,16 @@ while num > 0:
     soma += num
 print (f'Foram inseridos {cont} números e a soma deles é {soma}')
 
+
+# Contador de palavras iniciando coma letra A
+cont = 0
+palavras = input('Digite uma palavra ou Fim para parar: ')
+while palavras != 'Fim':
+    if palavras[0] == 'a' or palavras[0] == 'A':
+        cont += 1
+    palavras = input('Digite uma palavra: ')
+print (f'{cont} palavras começam com a letra A')
+
+
+
+
