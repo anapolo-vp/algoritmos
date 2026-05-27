@@ -6,4 +6,31 @@ while n > 0:
     print (n)
     n -= 1
 
-    
+#Somatório Simples
+
+cont = 0 
+soma = 0
+media = 0
+print ('Insira 5 números: ')
+while cont <5:
+    cont += 1
+    num = int (input())
+    soma += num
+    media = soma / cont
+
+print (f'A soma total é {soma} e a média é {media} ')
+
+
+#Somatório Simples II
+
+cont = 0 
+soma = 0
+media = 0
+numeros = int(input('Quantos números você deseja digitar?  '))
+
+while cont < numeros :
+    cont += 1
+    num = int (input('Insira um número: '))
+    soma += num
+    media = soma / cont
+print (f'soma: {soma} média: {media} ')
