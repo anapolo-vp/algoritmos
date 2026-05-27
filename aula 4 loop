@@ -36,6 +36,7 @@ while cont < numeros :
 print (f'soma: {soma} média: {media} ')
 
 
+
 #Números Pares
 cont = 0
 num = int(input('Insira um número '))
@@ -61,4 +62,14 @@ idade = int (input("Insira a sua idade: "))
 while idade < 18 or idade > 70:
     idade = int (input("Insira uma idade válida: "))
 print (f'A idade {idade} anos é válida')
+
+#Acumulador com Flag
+soma = 0
+cont = 0 
+num = int (input('Insira um número: '))
+while num > 0:
+    num = int (input('Insira um número: '))
+    cont += 1
+    soma += num
+print (f'Foram inseridos {cont} números e a soma deles é {soma}')
 
