@@ -1,0 +1,9 @@
+
+#Contagem regressiva 
+
+n = int (input('Insira um número maior ou igual a 10: '))
+while n > 0:
+    print (n)
+    n -= 1
+
+    
