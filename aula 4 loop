@@ -85,4 +85,20 @@ print (f'{cont} palavras começam com a letra A')
 
 
 
+#Números ímpares decrescentes
+
+n = int(input('Insira um número até 5: '))
+cont = 0
+print (f'Os números ímpares de {n} até 1 são:')
+while cont < 5:
+    cont += 1
+    if n %2 != 0:
+        print (n)
+    n -= 1
+
+
+
+
+
+
 
