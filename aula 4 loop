@@ -34,3 +34,13 @@ while cont < numeros :
     soma += num
     media = soma / cont
 print (f'soma: {soma} média: {media} ')
+
+
+#Números Pares
+cont = 0
+num = int(input('Insira um número '))
+print (f'Esses são os números pares de 0 à {num}') 
+while cont <= num:
+    if cont %2 == 0:
+        print (cont) 
+    cont += 1
